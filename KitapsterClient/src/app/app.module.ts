@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminModule } from './admin/admin.module';
 import { UiModule } from './ui/ui.module';
-import { ComponentsModule } from "./admin/layout/components/components.module";
 
 @NgModule({
     declarations: [
@@ -18,7 +17,7 @@ import { ComponentsModule } from "./admin/layout/components/components.module";
         AppRoutingModule,
         AdminModule,
         UiModule,
-        ComponentsModule
+        
     ]
 })
 export class AppModule { }
