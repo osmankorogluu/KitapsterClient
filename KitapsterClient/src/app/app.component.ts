@@ -14,3 +14,7 @@ export class AppComponent {
     
   }
 }
+
+$.get("https://localhost:7243/api/books", (datas: any) => {
+  console.log(datas)
+})
