@@ -6,11 +6,11 @@ import { AlertifyService, MessageType, Position } from 'src/app/services/admin/a
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-  
-constructor(private alertify: AlertifyService){}
+
+  constructor(private alertify: AlertifyService) {}
 
   ngOnInit(): void {
-    this.alertify.message("Yönetim Paneline Hoşgeldiniz.", MessageType.Warning, Position.BottomCenter, 3);
+   //this.alertify.message("Yönetim Paneline Hoşgeldiniz.", MessageType.Warning, Position.BottomCenter, 3);
   }
 
 }

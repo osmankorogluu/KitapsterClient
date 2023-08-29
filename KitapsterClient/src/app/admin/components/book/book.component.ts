@@ -35,10 +35,10 @@ export class BookComponent {
   //   stock:5,
   // }).subscribe();
 
-  this.httpClientService.delete({
-    controller: "books"
-  }, "1fa8182a-e832-4356-71b0-08db8ba2917a")
-  .subscribe();
+  // this.httpClientService.delete({
+  //   controller: "books"
+  // }, "1fa8182a-e832-4356-71b0-08db8ba2917a")
+  // .subscribe();
  }
 }
 
